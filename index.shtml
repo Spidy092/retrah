@@ -134,60 +134,32 @@
             </section>
 
             <!-- ================= ABOUT US SECTION ================= -->
-            <section class="section-spacing about-section" id="about">
-                <div class="fluid-container">
+            <section class="about-section" id="about">
+                <div class="fluid-container about-container">
                     <div class="inner-wrapper about-inner flex-row">
-                        <!-- Left Image -->
                         <div class="about-image-wrap">
-                            <img src="images/about-factory.jpg" alt="Retrah Modern Facility" class="about-img">
+                            <img src="images/about-factory.jpg" alt="Retrah facility" class="about-img" loading="lazy">
                         </div>
-
-                        <!-- Right Info -->
                         <div class="about-content flex-column">
                             <span class="section-tag">ABOUT US</span>
-                            <h2 class="section-heading">Driving a Cleaner and Greener Future</h2>
-                            <p class="about-description">
-                                Retrah is a leading provider of DPF cleaning machines, AdBlue solutions, and emission control products. We are committed to delivering innovative and sustainable solutions for a cleaner environment and a healthier tomorrow.
-                            </p>
-
-                            <!-- 3 Stats -->
+                            <h2 class="section-heading">Driving a Cleaner<br>and Greener Future</h2>
+                            <p class="about-description">Retrah is a leading provider of DPF cleaning machines, AdBlue solutions, and emission control products. We are committed to delivering innovative and sustainable solutions for a cleaner environment and a healthier tomorrow.</p>
                             <div class="about-stats flex-row">
                                 <div class="stat-item flex-row">
-                                    <div class="stat-icon-wrap">
-                                        <img src="images/icon-trophy.png" alt="Experience" class="stat-icon">
-                                    </div>
-                                    <div class="stat-info">
-                                        <span class="stat-number">10+</span>
-                                        <span class="stat-label">Years of Experience</span>
-                                    </div>
+                                    <div class="stat-icon-wrap"><img src="images/icon-trophy.png" alt="" class="stat-icon"></div>
+                                    <div class="stat-info"><span class="stat-number">10+</span><span class="stat-label">Years of Experience</span></div>
                                 </div>
-
                                 <div class="stat-item flex-row">
-                                    <div class="stat-icon-wrap">
-                                        <img src="images/icon-users.png" alt="Happy Clients" class="stat-icon">
-                                    </div>
-                                    <div class="stat-info">
-                                        <span class="stat-number">500+</span>
-                                        <span class="stat-label">Happy Clients</span>
-                                    </div>
+                                    <div class="stat-icon-wrap"><img src="images/icon-users.png" alt="" class="stat-icon"></div>
+                                    <div class="stat-info"><span class="stat-number">500+</span><span class="stat-label">Happy Clients</span></div>
                                 </div>
-
                                 <div class="stat-item flex-row">
-                                    <div class="stat-icon-wrap">
-                                        <img src="images/icon-machines.png" alt="Machines Installed" class="stat-icon">
-                                    </div>
-                                    <div class="stat-info">
-                                        <span class="stat-number">1000+</span>
-                                        <span class="stat-label">Machines Installed</span>
-                                    </div>
+                                    <div class="stat-icon-wrap"><img src="images/icon-machines.png" alt="" class="stat-icon"></div>
+                                    <div class="stat-info"><span class="stat-number">1000+</span><span class="stat-label">Machines Installed</span></div>
                                 </div>
                             </div>
-
                             <div class="about-btn-wrap">
-                                <a href="#contact" class="btn btn-primary">
-                                    <span>Know More About Us</span>
-                                    <span class="btn-arrow">&rarr;</span>
-                                </a>
+                                <a href="#contact" class="btn btn-primary"><span>Know More About Us</span><span class="btn-arrow">&rarr;</span></a>
                             </div>
                         </div>
                     </div>
@@ -195,85 +167,34 @@
             </section>
 
             <!-- ================= OUR PROCESS SECTION ================= -->
-            <section class="section-spacing process-section" id="process">
+            <section class="process-section" id="process">
+                <div class="process-bg"></div>
                 <div class="fluid-container">
                     <div class="inner-wrapper">
-                        <div class="process-header text-center">
+                        <div class="process-header">
                             <span class="section-tag tag-white">OUR PROCESS</span>
                             <h2 class="section-heading text-white">From Cleaning to Cleaner Emissions</h2>
-                            <p class="section-subheading text-white-dim">
-                                A simple and effective process to restore performance and ensure lower emissions.
-                            </p>
+                            <p class="section-subheading text-white-dim">A simple and effective process to restore performance and ensure lower emissions.</p>
                         </div>
-
-                        <!-- 4 Step Cards with Arrows -->
                         <div class="process-steps-wrap flex-row">
-                            <!-- Step 1 -->
-                            <div class="process-step-item flex-column">
-                                <div class="step-icon-circle">
-                                    <img src="images/icon-inspection.png" alt="Inspection" class="step-icon">
-                                </div>
-                                <div class="step-content">
-                                    <div class="step-num-title flex-row">
-                                        <span class="step-num">1</span>
-                                        <h3 class="step-title">Inspection</h3>
-                                    </div>
-                                    <p class="step-desc">Check filter condition and performance.</p>
-                                </div>
+                            <div class="process-step-item flex-row">
+                                <div class="step-icon-circle"><img src="images/icon-inspection.png" alt="" class="step-icon"></div>
+                                <div class="step-content"><div class="step-num-title flex-row"><span class="step-num">1</span><h3 class="step-title">Inspection</h3></div><p class="step-desc">Check filter condition<br>and performance.</p></div>
                             </div>
-
-                            <div class="step-arrow-wrap">
-                                <img src="images/icon-arrow-white.png" alt="Next" class="step-arrow">
+                            <div class="step-arrow-wrap">&rarr;</div>
+                            <div class="process-step-item flex-row">
+                                <div class="step-icon-circle"><img src="images/icon-cleaning.png" alt="" class="step-icon"></div>
+                                <div class="step-content"><div class="step-num-title flex-row"><span class="step-num">2</span><h3 class="step-title">Cleaning</h3></div><p class="step-desc">Advanced cleaning<br>with specialized machines.</p></div>
                             </div>
-
-                            <!-- Step 2 -->
-                            <div class="process-step-item flex-column">
-                                <div class="step-icon-circle">
-                                    <img src="images/icon-cleaning.png" alt="Cleaning" class="step-icon">
-                                </div>
-                                <div class="step-content">
-                                    <div class="step-num-title flex-row">
-                                        <span class="step-num">2</span>
-                                        <h3 class="step-title">Cleaning</h3>
-                                    </div>
-                                    <p class="step-desc">Advanced cleaning with specialized machines.</p>
-                                </div>
+                            <div class="step-arrow-wrap">&rarr;</div>
+                            <div class="process-step-item flex-row">
+                                <div class="step-icon-circle"><img src="images/icon-testing.png" alt="" class="step-icon"></div>
+                                <div class="step-content"><div class="step-num-title flex-row"><span class="step-num">3</span><h3 class="step-title">Testing</h3></div><p class="step-desc">Ensure optimal<br>performance.</p></div>
                             </div>
-
-                            <div class="step-arrow-wrap">
-                                <img src="images/icon-arrow-white.png" alt="Next" class="step-arrow">
-                            </div>
-
-                            <!-- Step 3 -->
-                            <div class="process-step-item flex-column">
-                                <div class="step-icon-circle">
-                                    <img src="images/icon-testing.png" alt="Testing" class="step-icon">
-                                </div>
-                                <div class="step-content">
-                                    <div class="step-num-title flex-row">
-                                        <span class="step-num">3</span>
-                                        <h3 class="step-title">Testing</h3>
-                                    </div>
-                                    <p class="step-desc">Ensure optimal performance.</p>
-                                </div>
-                            </div>
-
-                            <div class="step-arrow-wrap">
-                                <img src="images/icon-arrow-white.png" alt="Next" class="step-arrow">
-                            </div>
-
-                            <!-- Step 4 -->
-                            <div class="process-step-item flex-column">
-                                <div class="step-icon-circle">
-                                    <img src="images/icon-ready.png" alt="Ready to Use" class="step-icon">
-                                </div>
-                                <div class="step-content">
-                                    <div class="step-num-title flex-row">
-                                        <span class="step-num">4</span>
-                                        <h3 class="step-title">Ready to Use</h3>
-                                    </div>
-                                    <p class="step-desc">Cleaner, efficient and compliant.</p>
-                                </div>
+                            <div class="step-arrow-wrap">&rarr;</div>
+                            <div class="process-step-item flex-row">
+                                <div class="step-icon-circle"><img src="images/icon-ready.png" alt="" class="step-icon"></div>
+                                <div class="step-content"><div class="step-num-title flex-row"><span class="step-num">4</span><h3 class="step-title">Ready to Use</h3></div><p class="step-desc">Cleaner, efficient<br>and compliant.</p></div>
                             </div>
                         </div>
                     </div>
@@ -281,121 +202,49 @@
             </section>
 
             <!-- ================= OUR SERVICES SECTION ================= -->
-            <section class="section-spacing services-section" id="services">
+            <section class="services-section" id="services">
                 <div class="fluid-container">
-                    <div class="inner-wrapper">
-                        <div class="section-title-wrap">
+                    <div class="inner-wrapper services-inner flex-row">
+                        <div class="services-copy">
                             <span class="section-tag">OUR SERVICES</span>
                             <h2 class="section-heading">Complete Emission Control Solutions</h2>
-                            <p class="section-subheading">
-                                From advanced cleaning to high-performance fluids, we provide end-to-end solutions to keep your engines running cleaner and longer.
-                            </p>
+                            <p class="section-subheading">From advanced cleaning to high-performance fluids, we provide end-to-end solutions to keep your engines running cleaner and longer.</p>
                         </div>
-
-                        <!-- 4 Service Cards -->
-                        <div class="services-grid flex-row">
-                            <div class="service-card flex-column">
-                                <div class="service-thumb">
-                                    <img src="images/service-dpf.jpg" alt="DPF Cleaning Services" class="service-img">
-                                </div>
-                                <div class="service-body">
-                                    <h3 class="service-title">DPF Cleaning Services</h3>
-                                </div>
-                            </div>
-
-                            <div class="service-card flex-column">
-                                <div class="service-thumb">
-                                    <img src="images/service-adblue.jpg" alt="AdBlue Refilling Solutions" class="service-img">
-                                </div>
-                                <div class="service-body">
-                                    <h3 class="service-title">AdBlue Refilling Solutions</h3>
-                                </div>
-                            </div>
-
-                            <div class="service-card flex-column">
-                                <div class="service-thumb">
-                                    <img src="images/service-filter.jpg" alt="Filter Supply & Replacement" class="service-img">
-                                </div>
-                                <div class="service-body">
-                                    <h3 class="service-title">Filter Supply &amp; Replacement</h3>
-                                </div>
-                            </div>
-
-                            <div class="service-card flex-column">
-                                <div class="service-thumb">
-                                    <img src="images/service-installation.jpg" alt="Installation & Support" class="service-img">
-                                </div>
-                                <div class="service-body">
-                                    <h3 class="service-title">Installation &amp; Support</h3>
-                                </div>
-                            </div>
+                        <div class="services-grid">
+                            <article class="service-card flex-column"><div class="service-thumb"><img src="images/service-dpf.jpg" alt="DPF Cleaning Services" class="service-img" loading="lazy"></div><div class="service-body"><h3 class="service-title">DPF Cleaning Services</h3></div></article>
+                            <article class="service-card flex-column"><div class="service-thumb"><img src="images/service-adblue.jpg" alt="AdBlue Refilling Solutions" class="service-img" loading="lazy"></div><div class="service-body"><h3 class="service-title">AdBlue Refilling Solutions</h3></div></article>
+                            <article class="service-card flex-column"><div class="service-thumb"><img src="images/service-filter.jpg" alt="Filter Supply and Replacement" class="service-img" loading="lazy"></div><div class="service-body"><h3 class="service-title">Filter Supply &amp; Replacement</h3></div></article>
+                            <article class="service-card flex-column"><div class="service-thumb"><img src="images/service-installation.jpg" alt="Installation and Support" class="service-img" loading="lazy"></div><div class="service-body"><h3 class="service-title">Installation &amp; Support</h3></div></article>
                         </div>
                     </div>
                 </div>
             </section>
 
             <!-- ================= WHY CHOOSE RETRAH SECTION ================= -->
-            <section class="section-spacing why-choose-section" id="why-choose">
-                <div class="fluid-container">
+            <section class="why-choose-section" id="why-choose">
+                <div class="fluid-container why-container">
                     <div class="inner-wrapper why-inner flex-row">
-                        <!-- Left Video Block -->
                         <div class="video-card-wrap">
                             <div class="video-card">
-                                <img src="images/video-road.jpg" alt="Retrah Scenic Road" class="video-bg-img">
-                                <div class="video-overlay flex-center">
+                                <img src="images/video-road.jpg" alt="Forest road" class="video-bg-img" loading="lazy">
+                                <div class="video-overlay">
                                     <button type="button" class="btn-video-play flex-row" aria-label="Watch Our Video">
-                                        <div class="play-circle">
-                                            <img src="images/icon-play.png" alt="Play" class="play-icon">
-                                        </div>
+                                        <span class="play-circle"><img src="images/icon-play.png" alt="" class="play-icon"></span>
                                         <span class="play-text">Watch Our Video</span>
                                     </button>
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Right 4 Benefit Blocks -->
                         <div class="why-content flex-column">
                             <div class="section-title-wrap">
                                 <span class="section-tag">WHY CHOOSE RETRAH</span>
                                 <h2 class="section-heading">Reliable Solutions for a Cleaner Tomorrow</h2>
                             </div>
-
-                            <div class="why-features-grid flex-row">
-                                <!-- Feature 1 -->
-                                <div class="why-item flex-column">
-                                    <div class="why-icon-wrap">
-                                        <img src="images/icon-quality.png" alt="Quality Products" class="why-icon">
-                                    </div>
-                                    <h3 class="why-item-title">Quality Products</h3>
-                                    <p class="why-item-desc">Reliable and high-performance solutions</p>
-                                </div>
-
-                                <!-- Feature 2 -->
-                                <div class="why-item flex-column">
-                                    <div class="why-icon-wrap">
-                                        <img src="images/icon-support.png" alt="Expert Support" class="why-icon">
-                                    </div>
-                                    <h3 class="why-item-title">Expert Support</h3>
-                                    <p class="why-item-desc">Technical guidance and after-sales service</p>
-                                </div>
-
-                                <!-- Feature 3 -->
-                                <div class="why-item flex-column">
-                                    <div class="why-icon-wrap">
-                                        <img src="images/icon-sustainable.png" alt="Sustainable Solutions" class="why-icon">
-                                    </div>
-                                    <h3 class="why-item-title">Sustainable Solutions</h3>
-                                    <p class="why-item-desc">Helping reduce emissions for a cleaner planet</p>
-                                </div>
-
-                                <!-- Feature 4 -->
-                                <div class="why-item flex-column">
-                                    <div class="why-icon-wrap">
-                                        <img src="images/icon-globe.png" alt="Wide Industry Reach" class="why-icon">
-                                    </div>
-                                    <h3 class="why-item-title">Wide Industry Reach</h3>
-                                    <p class="why-item-desc">Trusted by clients across multiple sectors</p>
-                                </div>
+                            <div class="why-features-grid">
+                                <div class="why-item flex-column"><div class="why-icon-wrap"><img src="images/icon-quality.png" alt="" class="why-icon"></div><h3 class="why-item-title">Quality Products</h3><p class="why-item-desc">Reliable and high<br>performance solutions</p></div>
+                                <div class="why-item flex-column"><div class="why-icon-wrap"><img src="images/icon-support.png" alt="" class="why-icon"></div><h3 class="why-item-title">Expert Support</h3><p class="why-item-desc">Technical guidance<br>and after-sales service</p></div>
+                                <div class="why-item flex-column"><div class="why-icon-wrap"><img src="images/icon-sustainable.png" alt="" class="why-icon"></div><h3 class="why-item-title">Sustainable Solutions</h3><p class="why-item-desc">Helping reduce emissions<br>for a cleaner planet</p></div>
+                                <div class="why-item flex-column"><div class="why-icon-wrap"><img src="images/icon-globe.png" alt="" class="why-icon"></div><h3 class="why-item-title">Wide Industry Reach</h3><p class="why-item-desc">Trusted by clients<br>across multiple sectors</p></div>
                             </div>
                         </div>
                     </div>
@@ -403,220 +252,86 @@
             </section>
 
             <!-- ================= INDUSTRIES WE SERVE SECTION ================= -->
-            <section class="section-spacing industries-section" id="industries">
+            <section class="industries-section" id="industries">
                 <div class="fluid-container">
                     <div class="inner-wrapper">
-                        <div class="section-header-row flex-between">
+                        <div class="section-header-row flex-between compact-header">
                             <div class="section-title-wrap">
                                 <span class="section-tag">INDUSTRIES WE SERVE</span>
                                 <h2 class="section-heading">Supporting Cleaner Operations Across Industries</h2>
                             </div>
-                            <a href="#contact" class="link-arrow">
-                                <span>View All Industries</span>
-                                <span class="arrow">&rarr;</span>
-                            </a>
+                            <a href="#industries" class="link-arrow"><span>View All Industries</span><span class="arrow">&rarr;</span></a>
+                        </div>
+                        <div class="industries-grid">
+                            <article class="industry-card"><div class="industry-thumb"><img src="images/industry-truck.jpg" alt="Commercial Vehicles" class="industry-img" loading="lazy"></div><h3 class="industry-title">Commercial Vehicles</h3></article>
+                            <article class="industry-card"><div class="industry-thumb"><img src="images/industry-construction.jpg" alt="Construction Equipment" class="industry-img" loading="lazy"></div><h3 class="industry-title">Construction Equipment</h3></article>
+                            <article class="industry-card"><div class="industry-thumb"><img src="images/industry-generator.jpg" alt="Power Generators" class="industry-img" loading="lazy"></div><h3 class="industry-title">Power Generators</h3></article>
+                            <article class="industry-card"><div class="industry-thumb"><img src="images/industry-industrial.jpg" alt="Industrial Applications" class="industry-img" loading="lazy"></div><h3 class="industry-title">Industrial Applications</h3></article>
+                            <article class="industry-card"><div class="industry-thumb"><img src="images/industry-marine.jpg" alt="Marine and Off-Highway" class="industry-img" loading="lazy"></div><h3 class="industry-title">Marine &amp; Off-Highway</h3></article>
+                            <article class="industry-card"><div class="industry-thumb"><img src="images/industry-agriculture.jpg" alt="Agriculture and Farming" class="industry-img" loading="lazy"></div><h3 class="industry-title">Agriculture &amp; Farming</h3></article>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ================= SUSTAINABILITY + BLOG SECTION ================= -->
+            <section class="insights-band" id="blog">
+                <div class="fluid-container insights-container">
+                    <div class="inner-wrapper insights-inner flex-row">
+                        <div class="planet-cta-card">
+                            <div class="planet-overlay"></div>
+                            <div class="planet-copy">
+                                <h2 class="planet-cta-title">Emission Control<br>Solutions for a Healthier Planet</h2>
+                                <ul class="planet-checklist flex-column">
+                                    <li class="check-item flex-row"><img src="images/icon-check-green.png" alt="" class="check-icon"><span>Reduce Harmful Emissions</span></li>
+                                    <li class="check-item flex-row"><img src="images/icon-check-green.png" alt="" class="check-icon"><span>Improve Engine Performance</span></li>
+                                    <li class="check-item flex-row"><img src="images/icon-check-green.png" alt="" class="check-icon"><span>Extend Engine Life</span></li>
+                                </ul>
+                            </div>
                         </div>
 
-                        <!-- 6 Industries Grid -->
-                        <div class="industries-grid flex-row">
-                            <div class="industry-card flex-column">
-                                <div class="industry-thumb">
-                                    <img src="images/industry-truck.jpg" alt="Commercial Vehicles" class="industry-img">
+                        <div class="blogs-section">
+                            <div class="section-header-row flex-between compact-header">
+                                <div class="section-title-wrap">
+                                    <span class="section-tag">LATEST BLOGS &amp; INSIGHTS</span>
+                                    <h2 class="section-heading">Stay Updated with the Latest in Emission Control</h2>
                                 </div>
-                                <h3 class="industry-title">Commercial Vehicles</h3>
+                                <a href="#blog" class="link-arrow"><span>View All Blogs</span><span class="arrow">&rarr;</span></a>
                             </div>
-
-                            <div class="industry-card flex-column">
-                                <div class="industry-thumb">
-                                    <img src="images/industry-construction.jpg" alt="Construction Equipment" class="industry-img">
-                                </div>
-                                <h3 class="industry-title">Construction Equipment</h3>
-                            </div>
-
-                            <div class="industry-card flex-column">
-                                <div class="industry-thumb">
-                                    <img src="images/industry-generator.jpg" alt="Power Generators" class="industry-img">
-                                </div>
-                                <h3 class="industry-title">Power Generators</h3>
-                            </div>
-
-                            <div class="industry-card flex-column">
-                                <div class="industry-thumb">
-                                    <img src="images/industry-industrial.jpg" alt="Industrial Applications" class="industry-img">
-                                </div>
-                                <h3 class="industry-title">Industrial Applications</h3>
-                            </div>
-
-                            <div class="industry-card flex-column">
-                                <div class="industry-thumb">
-                                    <img src="images/industry-marine.jpg" alt="Marine & Off-Highway" class="industry-img">
-                                </div>
-                                <h3 class="industry-title">Marine &amp; Off-Highway</h3>
-                            </div>
-
-                            <div class="industry-card flex-column">
-                                <div class="industry-thumb">
-                                    <img src="images/industry-agriculture.jpg" alt="Agriculture & Farming" class="industry-img">
-                                </div>
-                                <h3 class="industry-title">Agriculture &amp; Farming</h3>
+                            <div class="blogs-grid">
+                                <article class="blog-card flex-column"><div class="blog-thumb"><img src="images/blog-1.jpg" alt="DPF cleaning" class="blog-img" loading="lazy"></div><div class="blog-body flex-column"><span class="blog-date">25 Apr 2026</span><h3 class="blog-title">Why DPF Cleaning is Important for Your Vehicle</h3><a href="#contact" class="card-link"><span>Read More</span><span class="arrow">&rarr;</span></a></div></article>
+                                <article class="blog-card flex-column"><div class="blog-thumb"><img src="images/blog-2.jpg" alt="AdBlue" class="blog-img" loading="lazy"></div><div class="blog-body flex-column"><span class="blog-date">16 Apr 2026</span><h3 class="blog-title">The Role of AdBlue in Reducing Emissions</h3><a href="#contact" class="card-link"><span>Read More</span><span class="arrow">&rarr;</span></a></div></article>
+                                <article class="blog-card flex-column"><div class="blog-thumb"><img src="images/blog-3.jpg" alt="Engine maintenance" class="blog-img" loading="lazy"></div><div class="blog-body flex-column"><span class="blog-date">10 Apr 2026</span><h3 class="blog-title">Tips to Maintain a Cleaner Engine for Longer Life</h3><a href="#contact" class="card-link"><span>Read More</span><span class="arrow">&rarr;</span></a></div></article>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <!-- ================= LATEST BLOGS & INSIGHTS SECTION ================= -->
-            <section class="section-spacing blogs-section" id="blog">
+            <!-- ================= CONTACT SECTION ================= -->
+            <section class="contact-section" id="contact">
                 <div class="fluid-container">
-                    <div class="inner-wrapper">
-                        <div class="section-header-row flex-between">
-                            <div class="section-title-wrap">
-                                <span class="section-tag">LATEST BLOGS &amp; INSIGHTS</span>
-                                <h2 class="section-heading">Stay Updated with the Latest in Emission Control</h2>
+                    <div class="inner-wrapper contact-inner flex-row">
+                        <div class="contact-header">
+                            <span class="contact-tag">Get in Touch</span>
+                            <h2 class="contact-title">Let's Build a Cleaner Tomorrow Together</h2>
+                            <p class="contact-desc">Get in touch with our experts for the right solution for your business. Whether you need a quote, product details, or technical support, our team is here to help.</p>
+                        </div>
+                        <form class="inquiry-form" id="quoteForm" onsubmit="event.preventDefault();">
+                            <div class="form-row form-row-three">
+                                <div class="form-group"><input type="text" class="form-control" placeholder="Full Name*" required></div>
+                                <div class="form-group"><input type="email" class="form-control" placeholder="Email Address*" required></div>
+                                <div class="form-group"><input type="tel" class="form-control" placeholder="Phone Number*" required></div>
                             </div>
-                            <a href="#blog" class="link-arrow">
-                                <span>View All Blogs</span>
-                                <span class="arrow">&rarr;</span>
-                            </a>
-                        </div>
-
-                        <!-- 3 Blog Cards -->
-                        <div class="blogs-grid flex-row">
-                            <!-- Blog 1 -->
-                            <article class="blog-card flex-column">
-                                <div class="blog-thumb">
-                                    <img src="images/blog-1.jpg" alt="Why DPF Cleaning is Important" class="blog-img">
-                                </div>
-                                <div class="blog-body flex-column">
-                                    <span class="blog-date">15 Apr 2026</span>
-                                    <h3 class="blog-title">Why DPF Cleaning is Important for Your Vehicle</h3>
-                                    <a href="#contact" class="card-link">
-                                        <span>Read More</span>
-                                        <span class="arrow">&rarr;</span>
-                                    </a>
-                                </div>
-                            </article>
-
-                            <!-- Blog 2 -->
-                            <article class="blog-card flex-column">
-                                <div class="blog-thumb">
-                                    <img src="images/blog-2.jpg" alt="Role of AdBlue in Reducing Emissions" class="blog-img">
-                                </div>
-                                <div class="blog-body flex-column">
-                                    <span class="blog-date">14 Apr 2026</span>
-                                    <h3 class="blog-title">The Role of AdBlue in Reducing Emissions</h3>
-                                    <a href="#contact" class="card-link">
-                                        <span>Read More</span>
-                                        <span class="arrow">&rarr;</span>
-                                    </a>
-                                </div>
-                            </article>
-
-                            <!-- Blog 3 -->
-                            <article class="blog-card flex-column">
-                                <div class="blog-thumb">
-                                    <img src="images/blog-3.jpg" alt="Tips to Maintain Cleaner Engine" class="blog-img">
-                                </div>
-                                <div class="blog-body flex-column">
-                                    <span class="blog-date">10 Apr 2026</span>
-                                    <h3 class="blog-title">Tips to Maintain a Cleaner Engine for Longer Life</h3>
-                                    <a href="#contact" class="card-link">
-                                        <span>Read More</span>
-                                        <span class="arrow">&rarr;</span>
-                                    </a>
-                                </div>
-                            </article>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- ================= CONTACT & PLANET CTA SECTION ================= -->
-            <section class="section-spacing contact-cta-section" id="contact">
-                <div class="fluid-container">
-                    <div class="inner-wrapper contact-cta-inner flex-row">
-                        <!-- Left Planet CTA Card -->
-                        <div class="planet-cta-card flex-column">
-                            <h2 class="planet-cta-title">Emission Control Solutions for a Healthier Planet</h2>
-                            
-                            <ul class="planet-checklist flex-column">
-                                <li class="check-item flex-row">
-                                    <img src="images/icon-check-green.png" alt="Checked" class="check-icon">
-                                    <span>Reduce Harmful Emissions</span>
-                                </li>
-                                <li class="check-item flex-row">
-                                    <img src="images/icon-check-green.png" alt="Checked" class="check-icon">
-                                    <span>Improve Engine Performance</span>
-                                </li>
-                                <li class="check-item flex-row">
-                                    <img src="images/icon-check-green.png" alt="Checked" class="check-icon">
-                                    <span>Extend Engine Life</span>
-                                </li>
-                            </ul>
-
-                            <div class="planet-earth-wrap">
-                                <img src="images/cta-earth.jpg" alt="Cleaner Earth" class="planet-earth-img">
+                            <div class="form-row form-row-two">
+                                <div class="form-group"><select class="form-control select-control" required><option value="" disabled selected>Select Product / Service</option><option>DPF Cleaning Machine</option><option>AdBlue / DEF</option><option>Air Purifiers</option><option>Water Purifiers</option><option>Emission Control Fluids</option></select></div>
+                                <div class="form-group"><select class="form-control select-control" required><option value="" disabled selected>Select Message*</option><option>Request Quotation</option><option>Product Demonstration</option><option>Technical Support</option><option>Dealership &amp; Distribution</option></select></div>
                             </div>
-                        </div>
-
-                        <!-- Right Contact Form Card -->
-                        <div class="contact-form-card flex-column">
-                            <div class="contact-header">
-                                <span class="contact-tag">Get in Touch</span>
-                                <h3 class="contact-title">Let's Build a Cleaner Tomorrow Together</h3>
-                                <p class="contact-desc">
-                                    Get in touch with our experts for the right solution for your business. Whether you need a quote, product details, or technical support, our team is here to help.
-                                </p>
+                            <div class="form-bottom flex-row">
+                                <div class="form-group message-group"><textarea class="form-control textarea-control" rows="4" placeholder="Your Message*" required></textarea></div>
+                                <div class="form-submit-wrap"><button type="submit" class="btn btn-primary btn-submit"><span>Send Message</span><span class="btn-arrow">&rarr;</span></button></div>
                             </div>
-
-                            <form class="inquiry-form flex-column" id="quoteForm" onsubmit="event.preventDefault(); alert('Thank you! Your inquiry has been received. Our team will contact you shortly.');">
-                                <div class="form-row flex-row">
-                                    <div class="form-group flex-1">
-                                        <input type="text" class="form-control" placeholder="Full Name*" required>
-                                    </div>
-                                    <div class="form-group flex-1">
-                                        <input type="email" class="form-control" placeholder="Email Address*" required>
-                                    </div>
-                                    <div class="form-group flex-1">
-                                        <input type="tel" class="form-control" placeholder="Phone Number*" required>
-                                    </div>
-                                </div>
-
-                                <div class="form-row flex-row">
-                                    <div class="form-group flex-1">
-                                        <select class="form-control select-control" required>
-                                            <option value="" disabled selected>Select Product / Service</option>
-                                            <option value="dpf">DPF Cleaning Machine</option>
-                                            <option value="adblue">AdBlue / DEF Manufacturing</option>
-                                            <option value="air">Industrial Air Purifiers</option>
-                                            <option value="water">PVDF Water Purifiers</option>
-                                            <option value="chemicals">Emission Control Fluids &amp; Chemicals</option>
-                                            <option value="service">DPF Cleaning &amp; Installation Service</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group flex-1">
-                                        <select class="form-control select-control" required>
-                                            <option value="" disabled selected>Select Message / Subject*</option>
-                                            <option value="quote">Request Quotation</option>
-                                            <option value="demo">Product Demonstration</option>
-                                            <option value="tech">Technical Support</option>
-                                            <option value="partnership">Dealership &amp; Distribution</option>
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="form-group">
-                                    <textarea class="form-control textarea-control" rows="4" placeholder="Your Message*" required></textarea>
-                                </div>
-
-                                <div class="form-submit-wrap">
-                                    <button type="submit" class="btn btn-primary btn-submit">
-                                        <span>Send Message</span>
-                                        <span class="btn-arrow">&rarr;</span>
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </section>
