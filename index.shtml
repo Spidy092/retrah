@@ -73,93 +73,61 @@
             <section class="section-spacing products-section" id="products">
                 <div class="fluid-container">
                     <div class="inner-wrapper">
-                        <div class="section-header-row flex-between">
+                        <div class="section-header-row flex-between compact-header">
                             <div class="section-title-wrap">
                                 <span class="section-tag">PRODUCT RANGE</span>
                                 <h2 class="section-heading">Premium Solutions for a Cleaner &amp; Efficient Tomorrow</h2>
                             </div>
-                            <a href="#contact" class="link-arrow">
-                                <span>View All Products</span>
-                                <span class="arrow">&rarr;</span>
+                            <a href="#products" class="link-arrow">
+                                <span>View All Products</span><span class="arrow">&rarr;</span>
                             </a>
                         </div>
 
-                        <!-- 5 Product Cards -->
-                        <div class="products-grid flex-row">
-                            <!-- Card 1 -->
-                            <div class="product-card flex-column">
-                                <div class="product-thumb">
-                                    <img src="images/product-dpf.jpg" alt="DPF Cleaning Machine" class="product-img">
-                                </div>
+                        <div class="products-grid">
+                            <article class="product-card flex-column">
+                                <div class="product-thumb"><img src="images/product-dpf.jpg" alt="DPF Cleaning Machine" class="product-img" loading="lazy"></div>
                                 <div class="product-body flex-column">
                                     <h3 class="product-title">DPF Cleaning Machine</h3>
-                                    <p class="product-desc">Advanced cleaning solutions for DPF filters.</p>
-                                    <a href="#contact" class="card-link">
-                                        <span>View Details</span>
-                                        <span class="arrow">&rarr;</span>
-                                    </a>
+                                    <p class="product-desc">Advanced cleaning solutions<br>for DPF filters.</p>
+                                    <a href="#contact" class="card-link"><span>View Details</span><span class="arrow">&rarr;</span></a>
                                 </div>
-                            </div>
+                            </article>
 
-                            <!-- Card 2 -->
-                            <div class="product-card flex-column">
-                                <div class="product-thumb">
-                                    <img src="images/product-adblue.jpg" alt="AdBlue / DEF" class="product-img">
-                                </div>
+                            <article class="product-card flex-column">
+                                <div class="product-thumb"><img src="images/product-adblue.jpg" alt="AdBlue DEF" class="product-img" loading="lazy"></div>
                                 <div class="product-body flex-column">
                                     <h3 class="product-title">AdBlue&reg; / DEF</h3>
-                                    <p class="product-desc">High-quality AdBlue for SCR systems.</p>
-                                    <a href="#contact" class="card-link">
-                                        <span>View Details</span>
-                                        <span class="arrow">&rarr;</span>
-                                    </a>
+                                    <p class="product-desc">High-quality AdBlue for<br>SCR systems.</p>
+                                    <a href="#contact" class="card-link"><span>View Details</span><span class="arrow">&rarr;</span></a>
                                 </div>
-                            </div>
+                            </article>
 
-                            <!-- Card 3 -->
-                            <div class="product-card flex-column">
-                                <div class="product-thumb">
-                                    <img src="images/product-air-filter.jpg" alt="Air Purifiers" class="product-img">
-                                </div>
+                            <article class="product-card flex-column">
+                                <div class="product-thumb"><img src="images/product-air-filter.jpg" alt="Air Purifiers" class="product-img" loading="lazy"></div>
                                 <div class="product-body flex-column">
                                     <h3 class="product-title">Air Purifiers</h3>
-                                    <p class="product-desc">Clean air for better engine performance.</p>
-                                    <a href="#contact" class="card-link">
-                                        <span>View Details</span>
-                                        <span class="arrow">&rarr;</span>
-                                    </a>
+                                    <p class="product-desc">Clean air for better engine<br>performance.</p>
+                                    <a href="#contact" class="card-link"><span>View Details</span><span class="arrow">&rarr;</span></a>
                                 </div>
-                            </div>
+                            </article>
 
-                            <!-- Card 4 -->
-                            <div class="product-card flex-column">
-                                <div class="product-thumb">
-                                    <img src="images/product-water.jpg" alt="Water Purifiers" class="product-img">
-                                </div>
+                            <article class="product-card flex-column">
+                                <div class="product-thumb"><img src="images/product-water.jpg" alt="Water Purifiers" class="product-img" loading="lazy"></div>
                                 <div class="product-body flex-column">
                                     <h3 class="product-title">Water Purifiers</h3>
-                                    <p class="product-desc">PVDF-based filtration solutions.</p>
-                                    <a href="#contact" class="card-link">
-                                        <span>View Details</span>
-                                        <span class="arrow">&rarr;</span>
-                                    </a>
+                                    <p class="product-desc">PVDF-based filtration<br>solutions.</p>
+                                    <a href="#contact" class="card-link"><span>View Details</span><span class="arrow">&rarr;</span></a>
                                 </div>
-                            </div>
+                            </article>
 
-                            <!-- Card 5 -->
-                            <div class="product-card flex-column">
-                                <div class="product-thumb">
-                                    <img src="images/product-fluids.jpg" alt="Emission Control Fluids" class="product-img">
-                                </div>
+                            <article class="product-card flex-column">
+                                <div class="product-thumb"><img src="images/product-fluids.jpg" alt="Emission Control Fluids" class="product-img" loading="lazy"></div>
                                 <div class="product-body flex-column">
                                     <h3 class="product-title">Emission Control Fluids</h3>
-                                    <p class="product-desc">Advanced chemicals for emission reduction.</p>
-                                    <a href="#contact" class="card-link">
-                                        <span>View Details</span>
-                                        <span class="arrow">&rarr;</span>
-                                    </a>
+                                    <p class="product-desc">Advanced chemicals for<br>emission reduction.</p>
+                                    <a href="#contact" class="card-link"><span>View Details</span><span class="arrow">&rarr;</span></a>
                                 </div>
-                            </div>
+                            </article>
                         </div>
                     </div>
                 </div>
