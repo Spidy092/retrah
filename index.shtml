@@ -11,15 +11,17 @@
             <!-- ================= HERO SECTION ================= -->
             <section class="hero-section" id="hero">
                 <div class="hero-bg-overlay"></div>
-                <div class="fluid-container">
-                    <div class="inner-wrapper hero-inner">
+                <div class="fluid-container hero-shell">
+                    <div class="inner-wrapper hero-inner flex-row">
                         <div class="hero-content">
                             <span class="section-tag hero-tag">CLEANER ENGINES. A GREENER TOMORROW.</span>
                             <h1 class="hero-title">
-                                Advanced Solutions for <span class="highlight-green">Clean Engines &amp; Lower Emissions</span>
+                                Advanced Solutions for
+                                <span class="highlight-green">Clean Engines &amp;<br>Lower Emissions</span>
                             </h1>
                             <p class="hero-subtitle">
-                                DPF Cleaning Machines | AdBlue&reg; Solutions | Exhaust Aftertreatment | Emission Control Products | Engine Care Solutions
+                                DPF Cleaning Machines | AdBlue&reg; Solutions | Exhaust Aftertreatment |<br>
+                                Emission Control Products | Engine Care Solutions
                             </p>
                             <div class="hero-btns flex-row">
                                 <a href="#products" class="btn btn-primary">
@@ -33,55 +35,34 @@
                             </div>
                         </div>
 
-                        <!-- Hero Floating Badge -->
-                        <div class="hero-badge-wrap">
+                        <div class="hero-badge-wrap" aria-label="Cleaner air, greener tomorrow">
                             <div class="clean-badge">
-                                <img src="images/icon-eco-green.png" alt="Eco Leaf" class="badge-leaf-icon">
                                 <span class="badge-line-1">CLEANER</span>
                                 <span class="badge-line-2">AIR</span>
                                 <span class="badge-line-3">GREENER</span>
                                 <span class="badge-line-4">TOMORROW</span>
+                                <img src="images/icon-leaf.png" alt="" class="badge-leaf-icon">
                             </div>
                         </div>
                     </div>
 
-                    <!-- Hero Feature Pills -->
-                    <div class="inner-wrapper">
+                    <div class="inner-wrapper hero-benefits-wrap">
                         <div class="hero-features-bar flex-row">
                             <div class="feature-pill flex-row">
-                                <div class="pill-icon-wrap">
-                                    <img src="images/icon-truck-green.png" alt="Cleaner Vehicles" class="pill-icon">
-                                </div>
-                                <div class="pill-text">
-                                    <span class="pill-title">Cleaner Vehicles</span>
-                                </div>
+                                <div class="pill-icon-wrap"><img src="images/icon-eco-green.png" alt="" class="pill-icon"></div>
+                                <span class="pill-title">Cleaner<br>Vehicles</span>
                             </div>
-
                             <div class="feature-pill flex-row">
-                                <div class="pill-icon-wrap">
-                                    <img src="images/icon-emission-green.png" alt="Lower Emissions" class="pill-icon">
-                                </div>
-                                <div class="pill-text">
-                                    <span class="pill-title">Lower Emissions</span>
-                                </div>
+                                <div class="pill-icon-wrap"><img src="images/icon-emission-green.png" alt="" class="pill-icon"></div>
+                                <span class="pill-title">Lower<br>Emissions</span>
                             </div>
-
                             <div class="feature-pill flex-row">
-                                <div class="pill-icon-wrap">
-                                    <img src="images/icon-chart-green.png" alt="Better Performance" class="pill-icon">
-                                </div>
-                                <div class="pill-text">
-                                    <span class="pill-title">Better Performance</span>
-                                </div>
+                                <div class="pill-icon-wrap"><img src="images/icon-chart-green.png" alt="" class="pill-icon"></div>
+                                <span class="pill-title">Better<br>Performance</span>
                             </div>
-
                             <div class="feature-pill flex-row">
-                                <div class="pill-icon-wrap">
-                                    <img src="images/icon-eco-green.png" alt="Sustainable Tomorrow" class="pill-icon">
-                                </div>
-                                <div class="pill-text">
-                                    <span class="pill-title">Sustainable Tomorrow</span>
-                                </div>
+                                <div class="pill-icon-wrap"><img src="images/icon-leaf.png" alt="" class="pill-icon"></div>
+                                <span class="pill-title">Sustainable<br>Tomorrow</span>
                             </div>
                         </div>
                     </div>
