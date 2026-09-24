@@ -280,3 +280,140 @@
         display: none;
     }
 }
+
+/* HERO REFERENCE-MATCH RESPONSIVE OVERRIDES */
+@media (max-width: 1200px) {
+    .hero-title { font-size: 45px; }
+}
+
+@media (max-width: 992px) {
+    .hero-section {
+        height: auto;
+        min-height: 580px;
+    }
+
+    .hero-inner {
+        height: 455px;
+    }
+
+    .hero-content {
+        width: 70%;
+        max-width: none;
+    }
+
+    .hero-title {
+        font-size: 43px;
+    }
+
+    .hero-badge-wrap {
+        width: 150px;
+        margin-right: 0;
+    }
+
+    .clean-badge {
+        width: 145px;
+        height: 145px;
+        border-width: 7px;
+    }
+
+    .badge-line-1 { font-size: 16px; }
+    .badge-line-2 { font-size: 27px; }
+    .badge-line-3,
+    .badge-line-4 { font-size: 15px; }
+
+    .badge-leaf-icon {
+        width: 44px;
+        right: -18px;
+    }
+
+    .hero-features-bar {
+        width: 100%;
+        padding: 0;
+        background: transparent;
+        border: 0;
+        box-shadow: none;
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-section {
+        min-height: 650px;
+        padding: 0;
+        background-position: 62% center;
+    }
+
+    .hero-bg-overlay {
+        background: linear-gradient(90deg,
+            rgba(4, 31, 51, 0.96),
+            rgba(4, 31, 51, 0.75));
+    }
+
+    .hero-inner {
+        height: auto;
+        padding-top: 55px;
+        display: block;
+        text-align: left;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-title {
+        font-size: 38px;
+        line-height: 1.06;
+        letter-spacing: -1.2px;
+    }
+
+    .hero-subtitle br {
+        display: none;
+    }
+
+    .hero-btns {
+        justify-content: flex-start;
+    }
+
+    .hero-badge-wrap {
+        display: none;
+    }
+
+    .hero-benefits-wrap {
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .hero-features-bar {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 34px;
+    }
+
+    .hero-btns {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero-btns .btn {
+        width: 100%;
+    }
+
+    .hero-features-bar {
+        grid-template-columns: 1fr;
+    }
+
+    .feature-pill {
+        gap: 8px;
+    }
+
+    .pill-icon-wrap {
+        width: 42px;
+        height: 42px;
+        flex-basis: 42px;
+    }
+}
