@@ -349,9 +349,25 @@ textarea {
 .hero-section {
     height: 532px;
     position: relative;
-    background: url('../images/hero-truck.jpg') center/cover no-repeat;
+    background-color: #173d5b;
+    background-image: url('../images/hero-truck.jpg');
+    background-position: center 56%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
     color: #fff;
     overflow: hidden;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg,
+        rgba(8, 34, 56, .10) 0%,
+        rgba(13, 45, 70, .08) 48%,
+        rgba(13, 45, 70, .20) 100%);
+    pointer-events: none;
 }
 
 .hero-section::after {
@@ -769,13 +785,22 @@ textarea {
 .process-bg {
     position: absolute;
     inset: 0;
-    background:
-        linear-gradient(90deg,
-            rgba(6,34,55,.98) 0%,
-            rgba(6,34,55,.94) 42%,
-            rgba(6,34,55,.72) 70%,
-            rgba(6,34,55,.72) 100%),
-        url('../images/hero-truck.jpg') right center/58% auto no-repeat;
+    background: url('../images/industry-truck.jpg') center/cover no-repeat;
+    transform: scaleX(-1);
+    transform-origin: center;
+}
+
+.process-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(90deg,
+        rgba(6,34,55,.98) 0%,
+        rgba(6,34,55,.95) 42%,
+        rgba(6,34,55,.82) 69%,
+        rgba(6,34,55,.70) 100%);
+    pointer-events: none;
 }
 
 .process-section .fluid-container {
