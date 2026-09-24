@@ -1,0 +1,282 @@
+/* ==========================================================================
+   RETRAH KLATECK SOLUTIONS - RESPONSIVE STYLESHEET
+   Clean Media Queries for Seamless Multi-Device Experience
+   ========================================================================== */
+
+/* Large Tablets & Small Desktops (<= 1200px) */
+@media (max-width: 1200px) {
+    .products-grid {
+        flex-wrap: wrap;
+    }
+
+    .product-card {
+        flex: 0 0 calc(33.333% - 14px);
+    }
+
+    .industries-grid {
+        flex-wrap: wrap;
+    }
+
+    .industry-card {
+        flex: 0 0 calc(33.333% - 12px);
+    }
+
+    .process-steps-wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 24px;
+    }
+
+    .process-step-item {
+        flex: 0 0 calc(50% - 30px);
+    }
+
+    .step-arrow-wrap {
+        display: none;
+    }
+}
+
+/* Tablets (<= 992px) */
+@media (max-width: 992px) {
+    .section-spacing {
+        padding: 75px 0;
+    }
+
+    /* Mobile Nav */
+    .mobile-toggle {
+        display: flex;
+    }
+
+    .main-nav {
+        position: fixed;
+        top: 74px;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+        border-bottom: 2px solid var(--primary);
+        box-shadow: var(--shadow-lg);
+        padding: 24px 30px;
+        display: none;
+        z-index: 999;
+    }
+
+    .main-nav.nav-active {
+        display: block;
+    }
+
+    .main-nav .flex-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .nav-link {
+        font-size: 1.05rem;
+    }
+
+    /* Hero */
+    .hero-section {
+        min-height: auto;
+        padding: 80px 0 50px 0;
+    }
+
+    .hero-inner {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .hero-btns {
+        justify-content: center;
+    }
+
+    .hero-badge-wrap {
+        margin-right: 0;
+    }
+
+    .hero-features-bar {
+        border-radius: var(--radius-lg);
+        padding: 20px;
+    }
+
+    /* About Us */
+    .about-inner {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .about-image-wrap {
+        width: 100%;
+    }
+
+    .about-img {
+        height: 380px;
+    }
+
+    /* Services */
+    .services-grid {
+        flex-wrap: wrap;
+    }
+
+    .service-card {
+        flex: 0 0 calc(50% - 12px);
+    }
+
+    /* Why Choose */
+    .why-inner {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .video-card-wrap {
+        width: 100%;
+    }
+
+    .video-card {
+        height: 350px;
+    }
+
+    /* Blogs */
+    .blogs-grid {
+        flex-wrap: wrap;
+    }
+
+    .blog-card {
+        flex: 0 0 calc(50% - 14px);
+    }
+
+    /* Contact & CTA */
+    .contact-cta-inner {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .planet-cta-card {
+        flex: 1;
+    }
+
+    /* Footer */
+    .footer-flex {
+        flex-wrap: wrap;
+        gap: 40px 20px;
+    }
+
+    .footer-col-brand {
+        flex: 0 0 100%;
+    }
+
+    .footer-col {
+        flex: 0 0 calc(33.333% - 14px);
+    }
+}
+
+/* Mobile Devices (<= 768px) */
+@media (max-width: 768px) {
+    .section-spacing {
+        padding: 60px 0;
+    }
+
+    .hero-title {
+        font-size: 2.2rem;
+    }
+
+    .section-heading {
+        font-size: 1.85rem;
+    }
+
+    .section-header-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+    }
+
+    .hero-features-bar {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 16px;
+    }
+
+    .product-card {
+        flex: 0 0 100%;
+    }
+
+    .service-card {
+        flex: 0 0 100%;
+    }
+
+    .industry-card {
+        flex: 0 0 calc(50% - 9px);
+    }
+
+    .blog-card {
+        flex: 0 0 100%;
+    }
+
+    .form-row {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .contact-form-card {
+        padding: 30px 20px;
+    }
+
+    .planet-cta-card {
+        padding: 35px 24px;
+    }
+
+    .footer-col {
+        flex: 0 0 100%;
+    }
+
+    .subfooter-flex {
+        flex-direction: column;
+        gap: 14px;
+        text-align: center;
+    }
+}
+
+/* Small Mobiles (<= 480px) */
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 1.85rem;
+    }
+
+    .hero-btns {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero-btns .btn {
+        width: 100%;
+    }
+
+    .hero-features-bar {
+        grid-template-columns: 1fr;
+    }
+
+    .why-features-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .process-step-item {
+        flex: 0 0 100%;
+    }
+
+    .industry-card {
+        flex: 0 0 100%;
+    }
+
+    .about-stats {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .btn-quote {
+        display: none;
+    }
+}
