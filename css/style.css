@@ -611,38 +611,53 @@ textarea {
 }
 
 /* ==========================================================================
-   PRODUCT RANGE SECTION
+   PRODUCT RANGE SECTION — REFERENCE TEMPLATE MATCH
    ========================================================================== */
 .products-section {
-    background-color: var(--bg-white);
+    padding: 32px 0 37px;
+    background: #fff;
+}
+
+.products-section .section-header-row {
+    margin-bottom: 25px;
+    gap: 28px;
+    align-items: flex-end;
+}
+
+.products-section .section-heading {
+    font-size: 31px;
+    line-height: 1.09;
+    letter-spacing: -0.8px;
 }
 
 .products-grid {
-    gap: 20px;
-    flex-wrap: nowrap;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 18px;
 }
 
 .product-card {
-    flex: 1;
-    background: #ffffff;
-    border: 1px solid var(--border-color);
-    border-radius: var(--radius-md);
+    min-width: 0;
+    min-height: 294px;
+    background: #fff;
+    border: 1px solid #e5ecf0;
+    border-radius: 8px;
     overflow: hidden;
+    box-shadow: 0 3px 13px rgba(8, 34, 56, 0.03);
     transition: var(--transition);
-    box-shadow: var(--shadow-sm);
 }
 
 .product-card:hover {
     transform: translateY(-6px);
-    box-shadow: var(--shadow-md);
-    border-color: var(--primary-light);
+    box-shadow: 0 8px 24px rgba(8, 34, 56, 0.07);
+    border-color: #c9e6c5;
 }
 
 .product-thumb {
     width: 100%;
-    height: 200px;
-    background-color: #f8fafc;
-    padding: 14px;
+    height: 170px;
+    padding: 13px;
+    background: #f7f9fa;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -650,32 +665,43 @@ textarea {
 }
 
 .product-img {
-    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    max-height: none;
     object-fit: contain;
-    transition: var(--transition);
+    transition: transform 0.3s ease;
 }
 
 .product-card:hover .product-img {
-    transform: scale(1.06);
+    transform: scale(1.045);
 }
 
 .product-body {
-    padding: 20px;
     flex: 1;
-    gap: 10px;
+    padding: 13px 14px 14px;
+    gap: 0;
+    align-items: center;
+    text-align: center;
 }
 
 .product-title {
-    font-size: 1.05rem;
-    font-weight: 700;
+    font-size: 15px;
+    line-height: 1.25;
+    font-weight: 800;
     color: var(--dark);
-    line-height: 1.35;
 }
 
 .product-desc {
-    font-size: 0.88rem;
-    color: var(--text-muted);
-    line-height: 1.5;
+    margin: 8px 0 9px;
+    font-size: 11px;
+    line-height: 1.55;
+    color: #607183;
+}
+
+.product-body .card-link {
+    margin-top: auto;
+    font-size: 11px;
+    font-weight: 800;
 }
 
 /* ==========================================================================
