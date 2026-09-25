@@ -264,11 +264,11 @@
                         </div>
                         <div class="industries-grid">
                             <article class="industry-card"><div class="industry-thumb"><img src="images/industry-truck.jpg" alt="Commercial Vehicles" class="industry-img" loading="lazy"></div><h3 class="industry-title">Commercial Vehicles</h3></article>
-                            <article class="industry-card"><div class="industry-thumb"><img src="images/industry-construction.jpg" alt="Construction Equipment" class="industry-img" loading="lazy"></div><h3 class="industry-title">Construction Equipment</h3></article>
+                            <article class="industry-card"><div class="industry-thumb"><img src="images/industry-agriculture.jpg" alt="Construction Equipment" class="industry-img" loading="lazy"></div><h3 class="industry-title">Construction Equipment</h3></article>
                             <article class="industry-card"><div class="industry-thumb"><img src="images/industry-generator.jpg" alt="Power Generators" class="industry-img" loading="lazy"></div><h3 class="industry-title">Power Generators</h3></article>
-                            <article class="industry-card"><div class="industry-thumb"><img src="images/industry-industrial.jpg" alt="Industrial Applications" class="industry-img" loading="lazy"></div><h3 class="industry-title">Industrial Applications</h3></article>
+                            <article class="industry-card"><div class="industry-thumb"><img src="images/service-installation.jpg" alt="Industrial Applications" class="industry-img" loading="lazy"></div><h3 class="industry-title">Industrial Applications</h3></article>
                             <article class="industry-card"><div class="industry-thumb"><img src="images/industry-marine.jpg" alt="Marine and Off-Highway" class="industry-img" loading="lazy"></div><h3 class="industry-title">Marine &amp; Off-Highway</h3></article>
-                            <article class="industry-card"><div class="industry-thumb"><img src="images/industry-agriculture.jpg" alt="Agriculture and Farming" class="industry-img" loading="lazy"></div><h3 class="industry-title">Agriculture &amp; Farming</h3></article>
+                            <article class="industry-card"><div class="industry-thumb"><img src="images/industry-industrial.jpg" alt="Agriculture and Farming" class="industry-img" loading="lazy"></div><h3 class="industry-title">Agriculture &amp; Farming</h3></article>
                         </div>
                     </div>
                 </div>
@@ -301,7 +301,7 @@
                             <div class="blogs-grid">
                                 <article class="blog-card flex-column"><div class="blog-thumb"><img src="images/blog-1.jpg" alt="DPF cleaning" class="blog-img" loading="lazy"></div><div class="blog-body flex-column"><span class="blog-date">25 Apr 2026</span><h3 class="blog-title">Why DPF Cleaning is Important for Your Vehicle</h3><a href="#contact" class="card-link"><span>Read More</span><span class="arrow">&rarr;</span></a></div></article>
                                 <article class="blog-card flex-column"><div class="blog-thumb"><img src="images/blog-2.jpg" alt="AdBlue" class="blog-img" loading="lazy"></div><div class="blog-body flex-column"><span class="blog-date">16 Apr 2026</span><h3 class="blog-title">The Role of AdBlue in Reducing Emissions</h3><a href="#contact" class="card-link"><span>Read More</span><span class="arrow">&rarr;</span></a></div></article>
-                                <article class="blog-card flex-column"><div class="blog-thumb"><img src="images/blog-3.jpg" alt="Engine maintenance" class="blog-img" loading="lazy"></div><div class="blog-body flex-column"><span class="blog-date">10 Apr 2026</span><h3 class="blog-title">Tips to Maintain a Cleaner Engine for Longer Life</h3><a href="#contact" class="card-link"><span>Read More</span><span class="arrow">&rarr;</span></a></div></article>
+                                <article class="blog-card flex-column"><div class="blog-thumb"><img src="images/service-dpf.jpg" alt="Engine maintenance" class="blog-img" loading="lazy"></div><div class="blog-body flex-column"><span class="blog-date">10 Apr 2026</span><h3 class="blog-title">Tips to Maintain a Cleaner Engine for Longer Life</h3><a href="#contact" class="card-link"><span>Read More</span><span class="arrow">&rarr;</span></a></div></article>
                             </div>
                         </div>
                     </div>
