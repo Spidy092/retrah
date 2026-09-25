@@ -679,7 +679,7 @@ textarea {
    ABOUT US SECTION — REFERENCE TEMPLATE MATCH
    ========================================================================== */
 .about-section {
-    height: 421px;
+    height: 432px;
     background: #fff;
 }
 
@@ -694,7 +694,7 @@ textarea {
 }
 
 .about-image-wrap {
-    width: 52.5%;
+    width: 53%;
     overflow: hidden;
 }
 
@@ -705,27 +705,27 @@ textarea {
 }
 
 .about-content {
-    width: 47.5%;
+    width: 47%;
     justify-content: center;
-    padding: 0 62px;
+    padding: 0 64px;
 }
 
 .about-content .section-heading {
-    font-size: 34px;
+    font-size: 36px;
     line-height: 1.09;
 }
 
 .about-description {
-    margin-top: 15px;
-    max-width: 560px;
-    font-size: 14px;
+    margin-top: 16px;
+    max-width: 575px;
+    font-size: 14.5px;
     line-height: 1.55;
     color: var(--text-muted);
 }
 
 .about-stats {
-    gap: 30px;
-    margin: 23px 0 22px;
+    gap: 32px;
+    margin: 25px 0 23px;
 }
 
 .stat-item {
@@ -734,15 +734,15 @@ textarea {
 }
 
 .stat-icon-wrap {
-    width: 34px;
-    height: 34px;
+    width: 38px;
+    height: 38px;
     display: grid;
     place-items: center;
 }
 
 .stat-icon {
-    width: 30px;
-    height: 30px;
+    width: 32px;
+    height: 32px;
     object-fit: contain;
 }
 
@@ -752,15 +752,15 @@ textarea {
 }
 
 .stat-number {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 800;
     line-height: 1.1;
     color: var(--dark);
 }
 
 .stat-label {
-    margin-top: 3px;
-    font-size: 8.5px;
+    margin-top: 4px;
+    font-size: 9px;
     color: #718096;
     white-space: nowrap;
 }
@@ -775,7 +775,7 @@ textarea {
    OUR PROCESS SECTION — REFERENCE TEMPLATE MATCH
    ========================================================================== */
 .process-section {
-    height: 351px;
+    height: 365px;
     background: #082238;
     position: relative;
     color: #fff;
@@ -820,7 +820,7 @@ textarea {
 }
 
 .process-header .section-heading {
-    font-size: 31px;
+    font-size: 33px;
     line-height: 1.09;
 }
 
@@ -829,8 +829,8 @@ textarea {
 }
 
 .text-white-dim {
-    margin-top: 8px;
-    font-size: 13px;
+    margin-top: 9px;
+    font-size: 13.5px;
     color: rgba(255,255,255,.84) !important;
 }
 
@@ -841,14 +841,14 @@ textarea {
 
 .process-step-item {
     align-items: center;
-    gap: 16px;
-    min-width: 210px;
+    gap: 17px;
+    min-width: 215px;
 }
 
 .step-icon-circle {
-    width: 60px;
-    height: 60px;
-    flex: 0 0 60px;
+    width: 64px;
+    height: 64px;
+    flex: 0 0 64px;
     border: 2px solid rgba(255,255,255,.88);
     border-radius: 50%;
     display: grid;
@@ -856,8 +856,8 @@ textarea {
 }
 
 .step-icon {
-    width: 29px;
-    height: 29px;
+    width: 31px;
+    height: 31px;
     object-fit: contain;
     filter: brightness(0) invert(1);
 }
@@ -868,18 +868,18 @@ textarea {
 }
 
 .step-num {
-    font-size: 19px;
+    font-size: 20px;
     font-weight: 700;
 }
 
 .step-title {
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
 }
 
 .step-desc {
     margin-top: 8px;
-    font-size: 10px;
+    font-size: 10.5px;
     line-height: 1.4;
     color: rgba(255,255,255,.88);
 }
@@ -895,7 +895,7 @@ textarea {
    OUR SERVICES SECTION — REFERENCE TEMPLATE MATCH
    ========================================================================== */
 .services-section {
-    height: 205px;
+    height: 220px;
     background: #fff;
     display: flex;
     align-items: center;
@@ -908,21 +908,21 @@ textarea {
 }
 
 .services-copy {
-    width: 42%;
+    width: 40%;
 }
 
 .services-copy .section-heading {
-    font-size: 27px;
+    font-size: 29px;
     line-height: 1.1;
 }
 
 .services-copy .section-subheading {
     max-width: 520px;
-    font-size: 12px;
+    font-size: 12.5px;
 }
 
 .services-grid {
-    width: 58%;
+    width: 60%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 16px;
@@ -936,7 +936,7 @@ textarea {
 }
 
 .service-thumb {
-    height: 100px;
+    height: 110px;
     overflow: hidden;
 }
 
@@ -947,12 +947,12 @@ textarea {
 }
 
 .service-body {
-    height: 31px;
-    padding: 8px 8px 7px;
+    height: 36px;
+    padding: 9px 9px 8px;
 }
 
 .service-title {
-    font-size: 9px;
+    font-size: 10px;
     line-height: 1.1;
     font-weight: 800;
     white-space: nowrap;
@@ -964,7 +964,7 @@ textarea {
    WHY CHOOSE RETRAH SECTION — REFERENCE TEMPLATE MATCH
    ========================================================================== */
 .why-choose-section {
-    height: 296px;
+    height: 310px;
     background: linear-gradient(90deg,#fff 0%,#fff 39%,#f1f8ed 39%,#f6fbf3 100%);
 }
 
@@ -1036,11 +1036,11 @@ textarea {
 .why-content {
     width: 60%;
     justify-content: center;
-    padding: 0 58px;
+    padding: 0 54px;
 }
 
 .why-content .section-heading {
-    font-size: 27px;
+    font-size: 29px;
     line-height: 1.1;
 }
 
@@ -1048,7 +1048,7 @@ textarea {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 24px;
-    margin-top: 23px;
+    margin-top: 25px;
 }
 
 .why-item {
@@ -1057,8 +1057,8 @@ textarea {
 }
 
 .why-icon-wrap {
-    width: 54px;
-    height: 54px;
+    width: 58px;
+    height: 58px;
     margin-bottom: 10px;
     border-radius: 50%;
     background: #fff;
@@ -1068,19 +1068,19 @@ textarea {
 }
 
 .why-icon {
-    width: 29px;
-    height: 29px;
+    width: 31px;
+    height: 31px;
     object-fit: contain;
 }
 
 .why-item-title {
-    font-size: 11px;
+    font-size: 11.5px;
     font-weight: 800;
 }
 
 .why-item-desc {
-    margin-top: 5px;
-    font-size: 8.5px;
+    margin-top: 6px;
+    font-size: 9px;
     line-height: 1.45;
     color: #64758a;
 }
@@ -1089,7 +1089,7 @@ textarea {
    INDUSTRIES WE SERVE SECTION — REFERENCE TEMPLATE MATCH
    ========================================================================== */
 .industries-section {
-    height: 302px;
+    height: 315px;
     background: #fff;
     display: flex;
     align-items: center;
@@ -1101,7 +1101,7 @@ textarea {
 }
 
 .industries-section .section-heading {
-    font-size: 25px;
+    font-size: 27px;
     line-height: 1.1;
 }
 
@@ -1120,7 +1120,7 @@ textarea {
 }
 
 .industry-thumb {
-    height: 121px;
+    height: 126px;
     background: #eef3f5;
     overflow: hidden;
 }
@@ -1132,11 +1132,11 @@ textarea {
 }
 
 .industry-title {
-    height: 31px;
+    height: 34px;
     display: flex;
     align-items: center;
     padding: 0 10px;
-    font-size: 9px;
+    font-size: 10px;
     font-weight: 800;
     white-space: nowrap;
 }
@@ -1145,7 +1145,7 @@ textarea {
    SUSTAINABILITY + BLOG SECTION — REFERENCE TEMPLATE MATCH
    ========================================================================== */
 .insights-band {
-    height: 315px;
+    height: 330px;
     background: #fff;
 }
 
@@ -1161,7 +1161,11 @@ textarea {
 .planet-cta-card {
     width: 42%;
     position: relative;
-    background: url('../images/cta-earth.jpg') center/cover no-repeat;
+    background-color: #06263c;
+    background-image: url('../images/cta-earth.jpg');
+    background-repeat: no-repeat;
+    background-size: 68% auto;
+    background-position: right 52%;
     color: #fff;
     overflow: hidden;
 }
@@ -1169,18 +1173,18 @@ textarea {
 .planet-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(90deg,rgba(4,34,54,.96) 0%,rgba(4,34,54,.78) 52%,rgba(4,34,54,.18) 100%);
+    background: linear-gradient(90deg,rgba(4,34,54,.99) 0%,rgba(4,34,54,.94) 44%,rgba(4,34,54,.55) 68%,rgba(4,34,54,.06) 100%);
 }
 
 .planet-copy {
     position: relative;
     z-index: 2;
     height: 100%;
-    padding: 47px 38px 34px 57px;
+    padding: 49px 40px 36px 58px;
 }
 
 .planet-cta-title {
-    font-size: 27px;
+    font-size: 29px;
     line-height: 1.12;
     font-weight: 800;
 }
@@ -1193,7 +1197,7 @@ textarea {
 .check-item {
     align-items: center;
     gap: 10px;
-    font-size: 10px;
+    font-size: 10.5px;
     font-weight: 700;
 }
 
@@ -1208,7 +1212,7 @@ textarea {
 
 .blogs-section {
     width: 58%;
-    padding: 26px 55px 25px 30px;
+    padding: 29px 55px 27px 32px;
 }
 
 .blogs-section .section-header-row {
@@ -1217,7 +1221,7 @@ textarea {
 }
 
 .blogs-section .section-heading {
-    font-size: 22px;
+    font-size: 24px;
     line-height: 1.1;
 }
 
@@ -1241,7 +1245,7 @@ textarea {
 }
 
 .blog-thumb {
-    height: 90px;
+    height: 98px;
     overflow: hidden;
 }
 
@@ -1252,33 +1256,33 @@ textarea {
 }
 
 .blog-body {
-    min-height: 101px;
-    padding: 8px 9px 10px;
+    min-height: 108px;
+    padding: 9px 10px 11px;
 }
 
 .blog-date {
     margin-bottom: 5px;
-    font-size: 7.5px;
+    font-size: 8px;
     color: #7b8896;
 }
 
 .blog-title {
-    min-height: 37px;
-    font-size: 9.5px;
+    min-height: 40px;
+    font-size: 10.5px;
     line-height: 1.28;
     font-weight: 800;
 }
 
 .blog-body .card-link {
     margin-top: auto;
-    font-size: 9px;
+    font-size: 9.5px;
 }
 
 /* ==========================================================================
    CONTACT SECTION — REFERENCE TEMPLATE MATCH
    ========================================================================== */
 .contact-section {
-    height: 281px;
+    height: 295px;
     background: #fff;
     display: flex;
     align-items: center;
@@ -1304,16 +1308,16 @@ textarea {
 }
 
 .contact-title {
-    max-width: 500px;
-    font-size: 27px;
+    max-width: 520px;
+    font-size: 29px;
     line-height: 1.12;
     font-weight: 800;
 }
 
 .contact-desc {
-    max-width: 520px;
-    margin-top: 11px;
-    font-size: 11px;
+    max-width: 535px;
+    margin-top: 12px;
+    font-size: 12px;
     line-height: 1.55;
     color: #5b6b7b;
 }
@@ -1338,13 +1342,13 @@ textarea {
 
 .form-control {
     width: 100%;
-    height: 38px;
+    height: 40px;
     border: 1px solid #dce5ea;
     border-radius: 4px;
     background: #fff;
     padding: 0 13px;
     color: #23394c;
-    font-size: 9px;
+    font-size: 10.5px;
     outline: none;
 }
 
@@ -1368,7 +1372,7 @@ textarea {
 }
 
 .textarea-control {
-    height: 75px;
+    height: 80px;
     resize: none;
     padding-top: 11px;
 }
@@ -1381,10 +1385,10 @@ textarea {
 
 .btn-submit {
     width: 100%;
-    height: 42px;
-    min-height: 42px;
-    padding: 0 12px;
-    font-size: 10px;
+    height: 44px;
+    min-height: 44px;
+    padding: 0 13px;
+    font-size: 10.5px;
 }
 
 /* ==========================================================================
@@ -1393,7 +1397,7 @@ textarea {
 .site-footer {
     background: var(--navy-900);
     color: #fff;
-    padding-top: 35px;
+    padding-top: 38px;
 }
 
 .footer-flex {
@@ -1416,16 +1420,16 @@ textarea {
 }
 
 .footer-desc {
-    max-width: 265px;
-    margin-top: 13px;
-    font-size: 9px;
+    max-width: 280px;
+    margin-top: 14px;
+    font-size: 10px;
     line-height: 1.55;
     color: rgba(255,255,255,.7);
 }
 
 .footer-title {
-    margin-bottom: 12px;
-    font-size: 12px;
+    margin-bottom: 13px;
+    font-size: 12.5px;
     font-weight: 800;
 }
 
@@ -1434,7 +1438,7 @@ textarea {
 }
 
 .footer-links a {
-    font-size: 9px;
+    font-size: 10px;
     color: rgba(255,255,255,.85);
 }
 
@@ -1450,7 +1454,7 @@ textarea {
     display: flex;
     gap: 8px;
     align-items: flex-start;
-    font-size: 9px;
+    font-size: 9.5px;
     line-height: 1.4;
     color: rgba(255,255,255,.85);
 }
@@ -1505,7 +1509,7 @@ textarea {
 
 .copyright-text,
 .legal-links {
-    font-size: 8px;
+    font-size: 8.5px;
     color: rgba(255,255,255,.72);
 }
 
